@@ -1,12 +1,11 @@
-# Breast-Cancer-Detection-using-deep-belief-network-from-scratch
-DBN (deep belief network) implementation for breast cancer detection
+# Implementasi Deep Belief Network (DBN) sebagai Algoritma untuk Mendeteksi Kanker Payudara 
 
-In this project i've used Deep belief network (DBN) to pre-train the model. Then, i've used back-propagation algorithm to optimize the model. This project is completely developed from scratch using basic library like numpy, pandas and matplotlib.
-Dataset is taken from UCI Machine Learning Repository 
+Dalam proyek ini, kami menggunakan Deep belief network (DBN) untuk melatih model. Kemudian, kami menggunakan algoritma back-propagation untuk mengoptimalkan model. Proyek ini sepenuhnya dikembangkan dari awal menggunakan library dasar seperti numpy, pandas, dan matplotlib.
+Dataset diambil dari Repositori Pembelajaran Mesin UCI  
 
 Link to dataset: https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+(original)
 
-FOLDERS DETAILS
+DETAIL FOLDER
 
 	1. Basic Tool
 		-> LoadDataset.py ==> load dataset 
@@ -17,20 +16,20 @@ FOLDERS DETAILS
 	In this folder trained classifier model is saved.
  
 	3. dataset 
-	It contains datasets. There four csv files in this folder. 
+	Terdapat 4 file CSV di dalam folder ini. 
 	The original.csv is original dataset from winsconsin machinelearning repositiory.
 		-> csv_db.csv ==> cleaned datasets. It is divided into train and test dataset. (TrainData.csv and TestData.csv)
 		-> TrainData.csv ==> for training classifier model
 		-> TestData.csv ==> for testing trained classifier model
 
 	4. normalization
-	Dataset is stored into this folder after normalization.
+	Dataset disimpan ke dalam folder ini setelah normalisasi.
 		-> normalized.csv
 		-> TestData.csv
 		-> TrainData.csv
 
 	5. Preprocessing
-	Implementing Deep Belief Network (DBN)
+	Implementasi Deep Belief Network (DBN)
 		-> Activation.py ==> activation function
 		-> DeepBeliefNet.py ==> creating deep belief network 
 		-> InitilizationRBM.py ==> initilizating RBM (Restricted Boltzmann Machine)
@@ -55,8 +54,6 @@ FOLDERS DETAILS
 		2. json 	
 			-> data.json ==> data extracted from user
 			-> result.json ==> result after classification
-
-
 	7. weights
 	weights from Pre-Training 
 		-> initialWeight.csv
